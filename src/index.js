@@ -5,7 +5,6 @@ import './styles/global.scss';
 
 /*ReactDOM.render(
   <App />,
-  <h1>test</h1>,
   document.querySelector('#root')
 ); */
 

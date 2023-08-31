@@ -11,9 +11,10 @@ const App = () => {
 
   const start = (e) => {
     e.preventDefault();
-    setInterv(setInterval(() => {
-      setTime(time => time + 1);
-    }, 1))
+    if (!interv) 
+      setInterv(setInterval(() => {
+        setTime(time => time + 1);
+      }, 1))
   };
 
   const stop = (e) => {
