@@ -19,7 +19,8 @@ const App = () => {
 
   const stop = (e) => {
     e.preventDefault();
-    clearInterval(interv)
+    clearInterval(interv);
+    setInterv(null);
   };
 
   const reset = (e) => {
